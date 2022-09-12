@@ -1,4 +1,4 @@
-# CVwithJava
+# Computer Vision with Java
 This is an overview of the main commands of the OpenCV library for java.
 
 ***
@@ -23,7 +23,7 @@ _This instruction for IntelliJ IDEA_
 
 > Click on plus and select "JARs and Directories"
 
-> Brouse your opencv folder and open it
+> Browse your opencv folder and open it
 
 > opencv -> build -> java -> opencv-460.jar -> ok
 
@@ -55,4 +55,22 @@ To do this, simply drag and drop your image into this folder.
 _If your resources folder isn't "src", you should config your pom.xml
 (I will describe below how to do this)_
 
-## Overview of basic commands
+## Second Step
+
+Now you are ready to work with the image.
+
+Description of the base classes used in the work, you will find in the 
+_**Overview of basic classes**_ file.
+
+Direct work with the image takes place in the _**CVWithJava**_ class.
+Description of the implemented methods and commands can be found in the
+_**Overview of CVWithJava Class methods**_ file.
+
+The _**HelperMethods**_ class implements some helper methods that do not belong to the 
+_OpenCV_ library and are not involved in image processing. 
+Description of these methods can be found in the 
+_**Overview of HelperMethods Class methods**_ file.
+
+
+
+
